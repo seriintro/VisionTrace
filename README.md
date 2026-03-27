@@ -20,7 +20,7 @@ Every recording saved â€” whether from live surveillance or manually uploaded â€
 ### Dashboard
 ![Dashboard](<Screenshot 2026-03-28 023633.png>)
 ### AI Chat
-![alt text](<Screenshot 2026-03-28 023923.png>)
+![AI Chat](<Screenshot 2026-03-28 023923.png>)
 
 
 
