@@ -1,0 +1,10 @@
+node_modules/
+.next/
+dist/
+*.env
+.env.local
+surveillance-videos/**/*.mp4
+surveillance-videos/**/*.mkv
+surveillance-videos/**/*.avi
+surveillance-videos/**/*.mov
+surveillance-videos/**/*.webm

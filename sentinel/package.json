@@ -1,0 +1,17 @@
+{
+  "name": "visiontrace",
+  "version": "1.0.0",
+  "description": "VisionTrace — AI Surveillance Intelligence Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently --names \"API,UI\" --prefix-colors \"yellow,cyan\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "setup": "node scripts/setup.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
